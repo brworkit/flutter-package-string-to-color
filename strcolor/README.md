@@ -19,11 +19,12 @@ All Flutter **Colors** constants supported.
 # Getting Started 
 In your flutter project add the dependency:
 
+```yaml
 dependencies:
+  
   ...
   strcolor: ^1.0.0
-
-For help getting started with Flutter, view the online documentation.
+```
 
 # Usage example 
 
