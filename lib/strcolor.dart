@@ -1,5 +1,6 @@
 library strcolor;
 
+// Needed to access Color
 import 'package:flutter/material.dart';
 
 // This is the source of mapped Flutter colors
