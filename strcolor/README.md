@@ -9,7 +9,7 @@ Flutter package to convert color names to Color in Flutter.
 
 Offers a handful way to use colors using their names instead of using Colors constants.
 
-It is specialy useful when you need to place color in a component comming from server. 
+It is specialy useful when you need to place color in a component comming dynamically from server. 
 
 You don't need to build any **from-to** structure to support it, you just need to use like **"green".color()** and 
 you'll have Colors.green in your Widget. 
