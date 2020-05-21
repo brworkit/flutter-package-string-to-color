@@ -45,4 +45,4 @@ class MyApp extends StatelessWidget {
 
 ## Author
 
-[**brworkit**](https://github.com/brworkit).
+[**2020 brworkit**](https://github.com/brworkit).
