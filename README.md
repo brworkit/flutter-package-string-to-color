@@ -43,6 +43,10 @@ class MyApp extends StatelessWidget {
 }
 ```
 
+## Source Code
+
+[strcolor](https://github.com/brworkit/flutter-package-string-to-color)
+
 ## Author
 
 [**2020 brworkit**](https://github.com/brworkit).
