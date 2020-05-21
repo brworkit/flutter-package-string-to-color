@@ -2,6 +2,7 @@ library strcolor;
 
 import 'package:flutter/material.dart';
 
+// This is the source of mapped Flutter colors
 const Map<String, Color> COLORS = {
   "transparent": Colors.transparent,
   "black": Colors.black,
@@ -43,7 +44,9 @@ const Map<String, Color> COLORS = {
   "tealAccent": Colors.tealAccent
 };
 
+// This extesion provide the hability of String extending to makes easier the use of the API
 extension StringToColor on String {
+  // The function that bind the color name into a Flutter Color
   color() {
     return COLORS.containsKey(this) ? COLORS[this] : Colors.transparent;
   }
