@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:strcolor/strcolor.dart';
 
 void main() {
-
   // print("SIZE: " + COLORS.length.toString());
 
   runApp(MyApp());
@@ -68,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   @override
-  Widget build(BuildContext context) {    
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
@@ -76,8 +75,8 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
         backgroundColor: "green".color(),
       ),
-      body: Center(        
-        child: Column(          
+      body: Center(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(

@@ -140,9 +140,8 @@ void main() {
       "yellowAccent"
     ];
 
-    names.forEach((name) {        
+    names.forEach((name) {
       expect(name.color() != Colors.transparent, true);
     });
-
   });
 }

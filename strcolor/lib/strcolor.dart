@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 const Map<String, Color> COLORS = {
   "transparent": Colors.transparent,
   "black": Colors.black,
-  "white": Colors.white,  
+  "white": Colors.white,
   "green": Colors.green,
   "greenAccent": Colors.greenAccent,
   "lightGreen": Colors.lightGreen,
-  "lightGreenAccent": Colors.lightGreenAccent,  
+  "lightGreenAccent": Colors.lightGreenAccent,
   "blue": Colors.blue,
   "blueAccent": Colors.blueAccent,
   "blueGrey": Colors.blueGrey,
@@ -44,7 +44,7 @@ const Map<String, Color> COLORS = {
 };
 
 extension StringToColor on String {
-  color() {      
-      return COLORS.containsKey(this) ? COLORS[this] : Colors.transparent;
+  color() {
+    return COLORS.containsKey(this) ? COLORS[this] : Colors.transparent;
   }
 }
