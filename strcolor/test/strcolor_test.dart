@@ -17,19 +17,12 @@ void main() {
 
     print("supports " + Colors.primaries.length.toString() + " primaries color.");
 
-    // COLORS.values.forEach((element) { 
-    //     print(element.toString());
-    // });
-
-    // COLORS.forEach((key, value) { 
-    //     // print("name: " + key + " value: " + value.toString());
-    //     print(key);
-    // });
     final names = COLORS.keys.toList();
+    names.sort();
 
     names.forEach((key) { 
         // print("name: " + key + " value: " + value.toString());
-        print(key);
+        print("* " + key);
     });
 
     print("supports " + COLORS.values.length.toString() + " total colors.");
