@@ -1,14 +1,55 @@
 # strcolor
 
-A new Flutter package project.
+<a href="https://pub.dev/packages/strcolor">
+   <img alt="Dart Pub" src="https://img.shields.io/pub/v/strcolor.svg?color=green&style=flat-square" />
+</a>
 
-## Getting Started
+## Description
+Flutter package to convert color names to Color in Flutter.
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Offers a handful way to use colors using their names instead of using Colors constants.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+It is specialy useful when you need to place color in a component comming from server. 
+
+You don't need to build any **from-to** structure to support it, you just need to use like **"green".color()** and 
+you'll have Colors.green in your Widget. 
+
+All Flutter **Colors** constants supported.
+
+# Getting Started 
+In your flutter project add the dependency:
+
+dependencies:
+  ...
+  strcolor: ^1.0.0
+
+For help getting started with Flutter, view the online documentation.
+
+# Usage example 
+
+```dart
+import 'package:strcolor/strcolor.dart';
+
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(        
+        primarySwatch: "purple".color(), // write the color name. When you receive dynamic color name from server this is much more useful.        
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      home: MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+```
+
+## Source Code
+
+[string-to-color](https://github.com/brworkit/flutter-package-string-to-color)
+
+## Author
+
+[**brworkit**](https://github.com/brworkit).
