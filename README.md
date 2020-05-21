@@ -1,11 +1,7 @@
 # String to Color
 
-<a href="https://github.com/Solido/awesome-flutter">
-   <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
-</a>
-
-<a href="https://pub.dev/packages/slide_container">
-   <img alt="Dart Pub" src="https://img.shields.io/pub/v/slide_container.svg?color=orange&style=flat-square" />
+<a href="https://pub.dev/packages/strcolor">
+   <img alt="Dart Pub" src="https://img.shields.io/pub/v/strcolor.svg?color=green&style=flat-square" />
 </a>
 
 ## Description
