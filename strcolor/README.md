@@ -21,8 +21,7 @@ In your flutter project add the dependency:
 
 ```yaml
 dependencies:
-  
-  ...
+  ...  
   strcolor: ^1.0.0
 ```
 
