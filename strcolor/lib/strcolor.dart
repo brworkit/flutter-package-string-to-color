@@ -3,9 +3,9 @@ library strcolor;
 import 'package:flutter/material.dart';
 
 const Map<String, Color> COLORS = {
-  "black": Colors.black,
-  "white": Colors.white,
   "transparent": Colors.transparent,
+  "black": Colors.black,
+  "white": Colors.white,  
   "green": Colors.green,
   "greenAccent": Colors.greenAccent,
   "lightGreen": Colors.lightGreen,

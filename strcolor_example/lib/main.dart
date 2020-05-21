@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:strcolor/strcolor.dart';
 
 void main() {
+
+  // print("SIZE: " + COLORS.length.toString());
+
   runApp(MyApp());
 }
 
