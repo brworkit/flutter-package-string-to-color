@@ -4,7 +4,7 @@ library strcolor;
 import 'package:flutter/material.dart';
 
 // This is the source of mapped Flutter colors
-const Map<String, Color> COLORS = {
+const Map<String, Color> SOURCE = {
   "transparent": Colors.transparent,
   "black": Colors.black,
   "white": Colors.white,
@@ -49,6 +49,7 @@ const Map<String, Color> COLORS = {
 extension StringToColor on String {
   // The function that bind the color name into a Flutter Color
   color() {
-    return COLORS.containsKey(this) ? COLORS[this] : Colors.transparent;
+    return SOURCE.containsKey(this) ? SOURCE[this] : Colors.transparent;
   }
+  
 }

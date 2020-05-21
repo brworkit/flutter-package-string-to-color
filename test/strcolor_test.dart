@@ -5,13 +5,13 @@ import 'package:strcolor/strcolor.dart';
 void main() {
   test('supports all flutter accent colors', () {
     Colors.accents.forEach((element) {
-      expect(COLORS.values.contains(element), true);
+      expect(SOURCE.values.contains(element), true);
     });
   });
 
   test('supports all flutter primaries colors', () {
     Colors.primaries.forEach((element) {
-      expect(COLORS.values.contains(element), true);
+      expect(SOURCE.values.contains(element), true);
     });
   });
 
