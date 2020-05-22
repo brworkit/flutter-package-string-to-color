@@ -1,6 +1,6 @@
 name: strcolor
 description: Flutter package to convert color names to Color in Flutter. Offers a handful way to use colors by their names instead of using Colors constants.
-version: 1.0.2
+version: 1.1.0
 homepage: https://github.com/brworkit/flutter-package-string-to-color
 
 environment:
