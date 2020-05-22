@@ -144,4 +144,25 @@ void main() {
       expect(name.color() != Colors.transparent, true);
     });
   });
+
+  test('white hexacolor is returned succesfull', () {
+    expect("#FFFFFF".color(), Colors.white);
+  });
+
+  test('black hexacolor is returned succesfull', () {
+    expect("#000000".color(), Colors.black);
+  });
+
+  test('random valid hexacolor is returned insteado of transparent color', () {
+    expect("#0E8F12".color() != Colors.transparent, true);
+  });
+
+  test('contrast color over black is white', () {
+    expect(Colors.black.contrast(), Colors.white);
+  });
+
+  test('contrast color over white is black87', () {
+    expect(Colors.white.contrast(), Colors.black87);
+  });
+
 }
