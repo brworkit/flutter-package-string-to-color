@@ -1,4 +1,4 @@
-## 1.1.0 - 2020-05-22
+## 1.1.1 - 2020-05-22
 
 * **New features**.
 * Supporting hexa colors as string.
