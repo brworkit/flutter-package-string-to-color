@@ -13,6 +13,8 @@ It is specialy useful when you need to place color in a component comming dynami
  
 All Flutter **Colors** constants supported.
 
+Hexa **Colors** supported.
+
 # Getting Started 
 In your flutter project add the dependency:
 
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(        
-        primarySwatch: "purple".color(), // write the color name. When you receive dynamic color name from server this is much more useful.        
+        primarySwatch: "purple".color(), // write the color name. When you receive dynamic color name from server this is much more useful.                
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
