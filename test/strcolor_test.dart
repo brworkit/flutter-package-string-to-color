@@ -164,5 +164,4 @@ void main() {
   test('contrast color over white is black87', () {
     expect(Colors.white.contrast(), Colors.black87);
   });
-
 }

@@ -47,19 +47,19 @@ const Map<String, Color> SOURCE = {
 
 // This extesion provide the hability of String extending to makes easier the use of the API
 extension StringToColor on String {
-
   // substring start to find the real hexa value
   static final start = 1;
   // substring end to find the real hexa value
   static final end = 7;
-  // hexa base 
+  // hexa base
   static final radix = 16;
   // complement to the 32-bits number
   static final complement = 0xFF000000;
 
   // The function that bind the color from hexa into a Flutter Color
-  colorFromHex() {    
-    return Color(int.parse(this.substring(start, end), radix: radix) + complement);
+  colorFromHex() {
+    return Color(
+        int.parse(this.substring(start, end), radix: radix) + complement);
   }
 
   // The function that bind the color name into a Flutter Color
@@ -77,15 +77,16 @@ extension StringToColor on String {
 
 // This extesion provide the hability of Color extending to makes easier the use of the API to compute contrast
 extension ContrastToColor on Color {
-  // half brightness to compute luminance 
+  // half brightness to compute luminance
   static final brightness = 0.5;
   // The function that calculate human brightness perception to expose better contrast against the color
   contrast() {
     try {
-      return this.computeLuminance() > brightness ? Colors.black87 : Colors.white;
+      return this.computeLuminance() > brightness
+          ? Colors.black87
+          : Colors.white;
     } catch (e) {
       return Colors.white;
     }
   }
-  
 }
