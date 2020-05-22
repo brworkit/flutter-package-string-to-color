@@ -1,3 +1,10 @@
+## 1.1.0 - 2020-05-22
+
+* New features.
+* supporting hexa colors as string.
+* Contrast color calculation to make easier to decide text color over a background color.
+* Documentation improvements
+
 ## 1.0.0 - 2020-05-20
 
 * Initial release.
