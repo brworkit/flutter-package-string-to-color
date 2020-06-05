@@ -45,10 +45,13 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-## Source Code
+## Dart Pub
 
-[strcolor](https://github.com/brworkit/flutter-package-string-to-color)
+[strcolor](https://pub.dev/packages/strcolor)
 
 ## Author
 
 [**2020 brworkit**](https://github.com/brworkit).
+
+## License
+[MIT License.](https://opensource.org/licenses/MIT)    
